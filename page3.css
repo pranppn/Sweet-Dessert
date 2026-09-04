@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Trebuchet MS", sans-serif;
+    background: #fffafd;
+    color: #584957;
+}
+
+nav {
+    height: 80px;
+    padding: 0 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+}
+
+.logo {
+    color: #9e6173;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: #655966;
+    margin-left: 25px;
+}
+
+.welcome {
+    min-height: 550px;
+    padding: 70px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background:
+        repeating-linear-gradient(
+            90deg,
+            #fff0f5 0px,
+            #fff0f5 50px,
+            #ffffff 50px,
+            #ffffff 100px
+        );
+}
+
+.welcome h1 {
+    font-size: 65px;
+    color: #cf88a2;
+    line-height: 1.1;
+}
+
+.welcome p {
+    margin: 25px 0;
+    font-size: 18px;
+}
+
+button {
+    background: #a1667a;
+    border: 0;
+    padding: 15px 35px;
+    border-radius: 50px;
+    color: white;
+    font-size: 16px;
+}
+
+.cake {
+    width: 300px;
+    height: 300px;
+    background: #ffe0eb;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.cake img {
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.products {
+    padding: 80px 8%;
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 40px;
+    color: #cc6f91;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 45px;
+}
+
+.product {
+    width: 300px;
+    padding: 40px 25px;
+    border-radius: 30px;
+}
+
+.product img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 20px;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+.product h3 {
+    margin: 20px 0 10px;
+    font-size: 22px;
+}
+
+.product p {
+    line-height: 1.6;
+}
+
+.pink {
+    background: #ffe1eb;
+}
+
+.blue {
+    background: #dff4ff;
+}
+
+.yellow {
+    background: #ffeabd;
+}
+
+.quote {
+    text-align: center;
+    padding: 80px 20px;
+    background: #e7dcff;
+}
+
+.quote
